@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/blackbox-vision-challenge/static/js/main.8ec91348.chunk.js",
+    "main.js.map": "/blackbox-vision-challenge/static/js/main.8ec91348.chunk.js.map",
+    "runtime-main.js": "/blackbox-vision-challenge/static/js/runtime-main.fcd5d5df.js",
+    "runtime-main.js.map": "/blackbox-vision-challenge/static/js/runtime-main.fcd5d5df.js.map",
+    "static/js/2.606b35e4.chunk.js": "/blackbox-vision-challenge/static/js/2.606b35e4.chunk.js",
+    "static/js/2.606b35e4.chunk.js.map": "/blackbox-vision-challenge/static/js/2.606b35e4.chunk.js.map",
+    "index.html": "/blackbox-vision-challenge/index.html",
+    "static/js/2.606b35e4.chunk.js.LICENSE.txt": "/blackbox-vision-challenge/static/js/2.606b35e4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcd5d5df.js",
+    "static/js/2.606b35e4.chunk.js",
+    "static/js/main.8ec91348.chunk.js"
+  ]
+}
