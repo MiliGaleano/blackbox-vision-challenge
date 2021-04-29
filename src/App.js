@@ -7,7 +7,6 @@ import Loading from './components/loading';
 
 const HomeDiv = styled.div`
   width: 100%;
-  background-color: #121212;
   min-height: 100vh;
 `;
 
@@ -31,7 +30,7 @@ const QuestionsDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin: 50px 0;
 `;
 
 function App() {

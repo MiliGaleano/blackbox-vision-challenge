@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Option from './option'
 
+const responsive = '@media (min-width: 600px)'
+
 const CardContainer = styled.div`
     display: flex;
     flex-direction: row;
@@ -9,13 +11,17 @@ const CardContainer = styled.div`
 `;
 
 const DivCard = styled.div`
-    width: 500px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #272727;
     box-shadow: 3px 5px 5px 1px rgba(0, 0, 0, 0.2);
     border-top-left-radius: 60px;
+
+    ${responsive} {
+        width: 500px;
+    }
 `;
 
 const Category = styled.h1`
@@ -26,15 +32,24 @@ const Category = styled.h1`
     font-weight: 300;
     letter-spacing: 0.3em;
     text-align: right;
-    width: 500px;
+    width: 300px;
     cursor: default;
+
+    ${responsive} {
+        width: 500px;
+    }
 `;
 
 const Question = styled.h2`
-    width: 400px;
+    width: 260px;
     text-align: center;
     font-size: 1.2rem;
-    margin: 80px 0 50px;
+    margin: 40px 0 30px;
+
+    ${responsive} {
+        width: 400px;
+        margin: 80px 0 50px;
+    }
 `;
 
 const OptionsDiv = styled.div`
@@ -48,11 +63,15 @@ const OptionsDiv = styled.div`
 
 const Difficulty = styled(Category)`
     bottom: 0;
-    right: 513px;
+    right: 313px;
     text-align: left;
     width: fit-content;
     writing-mode: vertical-rl;
     transform:scale(-1);
+
+    ${responsive} {
+        right: 513px;
+    }
 `;
 
 const QuestionCard = ({handlePoints, data, handleNumbQuestion}) => {

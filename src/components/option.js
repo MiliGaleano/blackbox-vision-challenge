@@ -34,8 +34,9 @@ const Option = ({handleAnswer, answer, data, decodeHtml}) => {
             setTextButton('Wrong!')
         }
         setTimeout(() => {
-            handleAnswer(e)
             setTextButton(answer)
+            e.target.blur()
+            handleAnswer(e)
         }, 2000);
     }
 
