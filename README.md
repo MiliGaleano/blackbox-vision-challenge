@@ -1,5 +1,3 @@
-![BlackBox Vision](./src/assets/logo.png "BlackBox Vision")
-
 # QuizBox Vision
 
 QuizBox Vision es un juego de preguntas y respuestas, como tantos otros. Sin embargo, en este juego, se ponen muchas más cosas en juego!! Bueno, en realidad no, pero quedaba bien para el resúmen.
